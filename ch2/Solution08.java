@@ -1,5 +1,3 @@
-package coding.boot.camp;
-
 import java.util.Hashtable;
 
 public class Solution08 {
