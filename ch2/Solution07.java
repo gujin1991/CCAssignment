@@ -17,8 +17,8 @@ public class Solution07 {
 		p4.next = p5;
 		p5.next = p6;
 		Node testNode = s.intersectionList(head, p3);
-		
-		System.out.println(testNode.data);
+		if(testNode != null)
+			System.out.println(testNode.data);
 			
 		
 	}
@@ -45,7 +45,8 @@ public class Solution07 {
     		
     		if(p1 == p2)
     		{
-    			System.out.println("There is no intersection between two lists.");
+    			if(p1 == null)
+    				System.out.println("There is no intersection between two lists.");
     			return p1; 
     		}
     		if(p1 == null)
