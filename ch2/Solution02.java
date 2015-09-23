@@ -1,4 +1,3 @@
-package coding.boot.camp;
 import java.io.*;
 public class Solution02 {
 
