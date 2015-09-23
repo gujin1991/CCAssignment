@@ -1,5 +1,3 @@
-package Coding.Boot.Camp;
-
 import java.util.LinkedList;
 import java.util.Random;
 
