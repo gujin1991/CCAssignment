@@ -1,4 +1,3 @@
-package Coding.Boot.Camp;
 import java.util.*;
 public class Solution01 {
 	enum State{unvisit, visiting, visited}

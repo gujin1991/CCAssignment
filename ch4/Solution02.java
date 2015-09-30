@@ -1,5 +1,3 @@
-package Coding.Boot.Camp;
-
 
 public class Solution02 {
 

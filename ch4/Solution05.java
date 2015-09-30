@@ -1,8 +1,4 @@
-package Coding.Boot.Camp;
-
 import java.util.*;
-
-
 
 
 public class Solution05 {
