@@ -1,0 +1,4 @@
+We can use the theory of merge sort to solve the problem.
+First, we can divide the 20GB file into many small parts, like 500M each.
+Then, we sort them separately and finally we merge them together.
+Hadoop is one of the best cloud computing platform for this problem which has a Map and Reduce function and a HDFS. 
