@@ -15,20 +15,15 @@ public class Solution02 {
 	}
 	
 	public boolean checkPermution(String s, String t) {
-		/*in this problem, if two strings have different length, result 
-		 * must be false. Therefore, with the same length, we can use 
-		 * a for loop to check if the responding positions have same 
-		 * element
-		 */
 		if(s.length() != t.length())
 			return false;
 		
-		//a for loop to check if the responding positions have same element
-		for(int i = 0, j = t.length() - 1; i < s.length(); i++, j--) {
-			if(s.charAt(i) != t.charAt(j))
-				return false;
-		}
-		
-		return true;
+		return sort(s).equals(sort(t));
+	}
+	
+	public String sort(String s){ 
+		char[] charArray = s.toCharArray();
+		Arrays.sort(charArray);
+		return	new String(charArray);
 	}
 }
