@@ -27,5 +27,11 @@ public class Solution07 {
 		
 		return -1;
 	}
+	// follow up discussion
+	/*if we have only 10MB memory, we can
+	 *1 divide the integer into blocks of some size which fits 10MB memory
+	 *2 find the block which its number of interger is smalller than size of block
+	 *3 use the method above to find the missing integer.
+	 */
 
 }
