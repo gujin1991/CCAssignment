@@ -67,6 +67,35 @@ public class Solution03 {
 				return null;
 			return stackArray.get(stackArray.size() - 1);
 		}
+		
+		
+		//follow up discussion
+		/*we first use the index to find the coresponding stack,
+	 	 *then we put the element out and move the elements of 
+	 	 *rest stacks forward
+	 	 */
+	 	public int popAt(int i) {
+			return shift(i, true);
+		}
+		
+		public int shift(int i, boolean removeTop) {
+			Stack stack = stackArray.get(i);
+			int topElement;
+			if(removeTop) {
+				topElement = (int) stack.pop();
+			} else {
+				topElement = stack.removeBottom();
+			}
+			
+			if(stack.isEmpty()) {
+				stackArray.remove(stack);
+			} else if(stackArray.size() > i + 1) { 
+				int e = shift(index + 1, false); //move the elements of rest stacks forward
+				stack.push(e);
+			}
+			
+			return topElement;
+		}
 	}
 
 }
