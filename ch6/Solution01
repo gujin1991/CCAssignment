@@ -1,0 +1,5 @@
+in this problem, we can pick certain number pills from each bottle. for example, 
+we can pick 1 pill from bottle 1, 2 pills from bottle 2, 3 pills from bottle 3 
+and so on. after that we weight them in the scale and use this weight minus the 
+expected weight. the result of them will show us the information of the bottle
+number

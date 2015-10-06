@@ -1,0 +1,4 @@
+because there are only two ways that ants will not meet each other which are the situation
+they move clockwisely and anticlockwisely. the prob of these two situations are (1 / 2 )^3
+which are 1 / 8. therefore p(collision) = 1 - 2 * 1 / 8 = 3 / 4. when there are n ants on
+an n-vertex polygon. then p(collision) = 1- p(same direction) = 1 - 2 * (1 /2)^n;

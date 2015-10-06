@@ -1,0 +1,14 @@
+we can find the number of poisoned bottle within 7 days. 
+1 change every number of bottle into binary representation
+2 drop the corresponding strip if the bit of binary representation is 1
+3 wait 7 days
+4 see the combination of positive and negative strips and turn it into decimal
+
+Follow up discussion:
+in this problem, we can first build two class, one is Bottle and the other is
+testStripe. Given an object in Bottle class, we can know its id number, set it
+to be poisoned and know if it is poisoned.  Given an object in testStripe class
+we can know its id number and the result of a test, put drop on it, get the bottle
+number of the test and so on. then in the findPoison function, we should first 
+drop the corresponding strip according to the binary representation, result the 
+result after 7 days and turn the result readable.

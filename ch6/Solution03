@@ -1,0 +1,3 @@
+it is impossible. because each domino need to take up one white square and a black square.
+therefore, we need at least 31 white squares and 32 black squares. but if we cut off two 
+corners of the one color, there are only 30 squares of that color.

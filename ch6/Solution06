@@ -1,0 +1,6 @@
+1 if only one people has blue eyes, he can find that immediately, he will leave that night.
+2 if there are two people have blue eyes and they found each other do not leave that night,
+they will leave tomorrow night.
+3 therefore, if there are n people have blue eyes, if they find that other blue eyes people
+do not leave after n-1 day, he can know he has blue eyes. therefore, all bule eyes people will
+leave at nth night.

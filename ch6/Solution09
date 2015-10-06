@@ -1,0 +1,7 @@
+in this problem, the locker will be closed if it was visited even times,
+because on each pass i, the man toggles every ith locker. For example,
+on pass 12, the state of 12th locker will be changed on pass 1, 2, 3, 4, 6, 12
+and it will be closed. therefore, we need to find the lockers which were visited
+odd times after 100 pass. and i found when n is a perfect square, nth locker was
+visited odd times. because there are 10 perfect squares(1 4 9 16 25 36 49 64 81 100) 
+in 100, we have 10 lockers open after 100 pass.
