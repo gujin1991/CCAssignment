@@ -25,7 +25,7 @@ public class Solution05 {
 			} else if(low >= left && !str[low].isEmpty()) {
 				mid = low;	//change the mid position
 			} else if(high <= right && !str[high].isEmpty()) {
-				mid = right;
+				mid = high;
 			}
 		}
 		
