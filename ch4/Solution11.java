@@ -58,7 +58,7 @@ public class Solution11 {
 		
 		//build a tree
 		public void insertInorder(int d) {
-			if(d < val) {
+			if(d <= val) {
 				if(left == null) {
 					left = new TreeNode(d);
 				} else {
